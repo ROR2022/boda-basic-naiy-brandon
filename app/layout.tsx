@@ -17,7 +17,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Naiy y Brandon - Nuestra Boda",
-  description: "Te invitamos a celebrar nuestra boda - 4 de Octubre 2025",
+  description: "Te invitamos a celebrar nuestra boda - 8 de Noviembre 2025",
   generator: "",
 }
 

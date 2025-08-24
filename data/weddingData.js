@@ -25,12 +25,12 @@ export const weddingData = {
 
   // 📅 Información de fecha y evento
   wedding: {
-    date: "2025-09-27T18:00:00",
+    date: "2025-11-08T18:00:00",
     dayName: "SABADO",
-    day: "27",
-    month: "SEPTIEMBRE",
+    day: "08",
+    month: "NOVIEMBRE",
     year: "2025",
-    title: "Mis XV Años"
+    title: "Nuestra Boda",
   },
 
   // ⛪ Información de la ceremonia
@@ -56,24 +56,38 @@ export const weddingData = {
     {
       id: "ceremonia",
       name: "Ceremonia",
-      time: "6:00",
-      icon: "🧡", // Anillo de compromiso - símbolo universal del matrimonio
+      time: "11:00",
+      icon: "🧡", // 
+      color: "primary"
+    },
+    {
+      id: "comida",
+      name: "Comida",
+      time: "2:00",
+      icon: "🍽️",
+      color: "primary"
+    },
+    {
+      id: "vals",
+      name: "Vals",
+      time: "5:30",
+      icon: "💃",
+      color: "primary"
+    },
+    {
+      id: "cena",
+      name: "Cena",
+      time: "8:00",
+      icon: "🍽️", // Plato con cubiertos - cena elegante
       color: "primary"
     },
     {
       id: "brindis",
       name: "Brindis",
-      time: "8:00",
+      time: "9:00",
       icon: "🥂", // Copas de champagne - celebración y brindis
       color: "secondary"
     },
-    {
-      id: "cena",
-      name: "Cena",
-      time: "9:00",
-      icon: "🍽️", // Plato con cubiertos - cena elegante
-      color: "primary"
-    }
   ],
 
   // 👗 Código de vestimenta
@@ -106,7 +120,7 @@ export const weddingData = {
 
   // 💬 Mensajes y frases
   messages: {
-    timelineQuote: "Hoy florecen mis sueños… cumplo XV años.",
+    timelineQuote: "Un gran amor merece ser celebrado!.",
     dateMessage: "¡La cuenta regresiva ha comenzado!",
     countdownTitle: "TAN SÓLO FALTAN"
   },

@@ -5,22 +5,25 @@ import { basicDemoData } from "./data/basic-demo-data";
 
 export function BasicEventDetails() {
   return (
-    <section 
-    style={{
-      position: "relative",
-    }}
-    className="py-16 px-4 bg-white">
-      <div className="max-w-4xl mx-auto">
+    <section
+      style={{
+        position: "relative",
+        background: "url('/images/boda3.png') center center",
+        backgroundSize: "cover",
+      }}
+      className="py-16 px-4 "
+    >
+      <div className="max-w-4xl mx-auto bg-slate-200 bg-opacity-80 p-2 rounded-2xl">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Cuándo y Dónde
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 mx-auto rounded-full"></div>
         </div>
 
         {/* Información de los novios */}
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 mb-8 text-center">
+        <div className="rounded-2xl p-8 mb-8 text-center">
           <div className="flex items-center justify-center mb-4">
             <Heart className="w-8 h-8 text-pink-500 fill-current" />
           </div>
@@ -34,7 +37,7 @@ export function BasicEventDetails() {
 
           {/* Padres */}
           <div className="grid md:grid-cols-2 gap-6 mt-8">
-            <div className="bg-white rounded-lg p-4">
+            <div className="bg-slate-200 bg-opacity-60 rounded-lg p-4">
               <h4 className="font-semibold text-gray-800 mb-2">
                 Padres de la Novia
               </h4>
@@ -45,7 +48,7 @@ export function BasicEventDetails() {
                 {basicDemoData.event.parents.brideParents.mother}
               </p>
             </div>
-            <div className="bg-white rounded-lg p-4">
+            <div className="bg-slate-200 bg-opacity-60 rounded-lg p-4">
               <h4 className="font-semibold text-gray-800 mb-2">
                 Padres del Novio
               </h4>
@@ -59,7 +62,7 @@ export function BasicEventDetails() {
           </div>
 
           {/* Padrinos */}
-          <div className="bg-white rounded-lg p-4 my-5">
+          <div className="bg-slate-200 bg-opacity-60 rounded-lg p-4 my-5">
             <h4 className="font-semibold text-gray-800 mb-2">Padrinos</h4>
             <p className="text-gray-600">
               {basicDemoData.event.padrinos.father}
@@ -78,7 +81,7 @@ export function BasicEventDetails() {
         </div>
 
         {/* Ceremonia */}
-        <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 mb-8">
+        <div className="bg-slate-200 bg-opacity-60 rounded-2xl shadow-lg border border-gray-100 p-8 mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
               <Heart className="w-6 h-6 text-blue-600" />
@@ -128,14 +131,13 @@ export function BasicEventDetails() {
               <ul className="text-sm text-blue-700 space-y-1">
                 <li>• Llegar 30 minutos antes</li>
                 <li>• Código de vestimenta: Semi-Formal</li>
-                
               </ul>
             </div>
           </div>
         </div>
 
         {/* Recepción */}
-        <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+        <div className="bg-slate-200 bg-opacity-60 rounded-2xl shadow-lg border border-gray-100 p-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
               <Users className="w-6 h-6 text-purple-600" />
@@ -191,32 +193,42 @@ export function BasicEventDetails() {
         </div>
 
         {/* Festejados */}
-        <div 
-        style={{
-          position: "relative",
-          zIndex: 1000,
-          backgroundImage: `url('/images/bodaBautizo1.png')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="rounded-2xl p-8 mb-8 text-center mt-6">
+        <div
+          style={{
+            position: "relative",
+            zIndex: 1000,
+            backgroundImage: `url('/images/bebe1.jpg')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+          className="rounded-2xl p-8 mb-8 text-center mt-6"
+        >
           <div className="bg-slate-200 bg-opacity-60 rounded-2xl p-4">
-          <h3 className="text-2xl font-bold text-purple-800 mb-6">
-            También Festejamos:
-          </h3>
-          
-          <div className="  mb-4 shadow-2xl mt-4">
-          <h2 className="text-xl font-semibold text-purple-800 mb-2">
-            Meredith
-          </h2>
-          <p className="text-purple-800 mb-4">
-            Bautizo de nuestra princesa
-          </p>
+            <h3 className="text-2xl font-bold text-purple-800 mb-6">
+              Mi Bautizo:
+            </h3>
+
+            <div className="  mb-4 shadow-2xl mt-4">
+              <h2 className="text-xl font-semibold text-purple-800 mb-2">
+                Meredith
+              </h2>
+            </div>
           </div>
+          <div className="bg-slate-200 bg-opacity-60 rounded-2xl p-4 mt-8">
+            <h3 className="text-2xl font-bold text-purple-800 mb-6">
+              Mis Padrinos:
+            </h3>
+
+            <div className="  mb-4 shadow-2xl mt-4">
+              <h2 className=" flex flex-col text-xl font-semibold text-purple-800 mb-2">
+                <span>Rodolfo Campos Candia</span> 
+                <span>&</span>
+                <span>Antonieta Juarez Loranca</span>
+              </h2>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
   );

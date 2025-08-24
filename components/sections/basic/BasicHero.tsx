@@ -7,7 +7,7 @@ export function BasicHero() {
     <section 
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/novios1.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/naiy2.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

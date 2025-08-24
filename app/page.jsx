@@ -1,13 +1,23 @@
 "use client"
 
-
+import { useState } from "react"
 import { BasicAttendance, BasicCountdown, BasicEventDetails } from "@/components/sections/basic"
-//import AudioPlayer from "../components/AudioPlayer"
+import AudioPlayer from "../components/AudioPlayer"
 import BasicCTA from "../components/sections/BasicCTA"
 import {BasicHero } from "@/components/sections/basic/BasicHero"
+import { PremiumGallery } from "@/components/sections/PremiumGallery"
+import InvitationEnvelope from "@/components/sections/InvitationEnvelope"
+import CustomInvitations from "@/components/sections/CustomInvitations/components/CustomInvitations"
+import TimelineSection from "@/components/sections/TimelineSection"
 
 export default function WeddingInvitation() {
-  
+  const [isOpen, setIsOpen] = useState(false)
+
+  if (!isOpen) {
+    // Aquí se renderiza el InvitationEnvelope
+    return <InvitationEnvelope onOpen={() => setIsOpen(true)} />
+  }
+
   return (
     <div 
     style={{
@@ -17,12 +27,14 @@ export default function WeddingInvitation() {
       <BasicHero />
       <BasicCountdown />
       <BasicEventDetails />
+      <TimelineSection />
+      <PremiumGallery />
       <BasicAttendance />
-
+      <CustomInvitations />
       <BasicCTA />
       
       {/* 🎵 Reproductor de audio fijo */}
-      {/* <AudioPlayer /> */}
+       <AudioPlayer /> 
     </div>
   )
 }

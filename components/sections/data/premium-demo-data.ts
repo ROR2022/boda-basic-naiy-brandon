@@ -81,83 +81,77 @@ export const premiumDemoData = {
   gallery: {
     title: "Galería de Recuerdos",
     subtitle: "Momentos especiales",
-    description: "Una colección de mis fotos favoritas preparándome para este gran día",
+    description: "Una colección de fotos favoritas para este gran día",
     images: [
       { 
-        src: "/images/quince/edana1.jpg", 
+        src: "/images/naiy1.jpg", 
         alt: "Sesión fotográfica 1", 
         caption: "Momentos Inolvidables",
         category: "preparacion"
       },
-      { 
-        src: "/images/quince/edana2.jpg", 
-        alt: "Sesión fotográfica 2", 
+      {
+        src: "/images/naiy2.jpg",
+        alt: "Sesión fotográfica 2",
         caption: "Momentos Inolvidables",
         category: "vestido"
       },
       { 
-        src: "/images/quince/edana3.jpg", 
+        src: "/images/naiy3.jpg", 
         alt: "Sesión fotográfica 3", 
         caption: "Momentos Inolvidables",
         category: "alegria"
       },
-      { 
-        src: "/images/quince/edana4.jpg", 
-        alt: "Sesión fotográfica 4", 
+      {
+        src: "/images/naiy4.jpg",
+        alt: "Sesión fotográfica 4",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana5.jpg",
+        src: "/images/naiy5.jpg",
         alt: "Sesión fotográfica 5",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana6.jpg",
+        src: "/images/naiy6.jpg",
         alt: "Sesión fotográfica 6",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana7.jpg",
+        src: "/images/naiy7.jpg",
         alt: "Sesión fotográfica 7",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana8.jpg",
+        src: "/images/naiy8.jpg",
         alt: "Sesión fotográfica 8",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana9.jpg",
+        src: "/images/naiy9.jpg",
         alt: "Sesión fotográfica 9",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana10.jpg",
+        src: "/images/naiy10.jpg",
         alt: "Sesión fotográfica 10",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana11.jpg",
+        src: "/images/naiy11.jpg",
         alt: "Sesión fotográfica 11",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/quince/edana12.jpg",
+        src: "/images/naiy12.jpg",
         alt: "Sesión fotográfica 12",
-        caption: "Momentos Inolvidables",
-        category: "celebracion"
-      },
-      {
-        src: "/images/quince/edana13.jpg",
-        alt: "Sesión fotográfica 13",
         caption: "Momentos Inolvidables",
         category: "celebracion"
       }

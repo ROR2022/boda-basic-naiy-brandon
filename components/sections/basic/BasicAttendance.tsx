@@ -23,8 +23,8 @@ export function BasicAttendance() {
     }
 
     // Crear mensaje para WhatsApp
-    const phoneNumber = "5207206665983" // +52 720 666 5983
-    let message = `¡Hola! Confirmación de asistencia para la boda de Giselle & Fernando:\n\n`
+    const phoneNumber = "5212231439396" // +52 1 223 143 9396
+    let message = `¡Hola! Confirmación de asistencia para la boda de Naiy & Brandon:\n\n`
     message += `👤 Nombre: ${formData.name}\n`
     message += `📅 Respuesta: ${formData.response === 'yes' ? '✅ Sí podré asistir' : '❌ No podré asistir'}\n`
     
@@ -48,8 +48,14 @@ export function BasicAttendance() {
   }
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
-      <div className="max-w-2xl mx-auto">
+    <section 
+    style={{
+        position: "relative",
+        background: "url('/images/boda3.png') center center",
+        backgroundSize: "cover",
+      }}
+    className="py-16 px-4">
+      <div className="max-w-2xl mx-auto bg-slate-300 bg-opacity-80 rounded-2xl p-6">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex justify-center mb-4">
@@ -70,7 +76,7 @@ export function BasicAttendance() {
 
         {/* Formulario */}
         {!isSubmitted ? (
-          <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-xl p-8">
+          <form onSubmit={handleSubmit} className="bg-slate-200 bg-opacity-80 rounded-2xl shadow-xl p-8">
             {/* Nombre */}
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">

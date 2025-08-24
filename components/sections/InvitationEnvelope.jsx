@@ -205,42 +205,35 @@ export default function EnvelopeOpening({ onOpen = () => {} }) {
                   transform: 'rotate(5deg)'
                 }}
               >
-                {/* XV Quinceañera Symbol */}
+                {/* Couple silhouette SVG */}
                 <svg width="50" height="50" viewBox="0 0 100 100" className="opacity-80 pointer-events-none">
-                  {/* Letter X */}
+                  {/* Female figure */}
+                  <ellipse cx="35" cy="25" rx="8" ry="10" fill="rgba(166, 124, 57, 0.6)" />
                   <path 
-                    d="M 25 30 L 45 60 M 45 30 L 25 60"
-                    stroke="rgba(166, 124, 57, 0.7)"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
+                    d="M 35 35 Q 30 40, 28 55 L 32 80 L 38 80 L 42 55 Q 40 40, 35 35"
+                    fill="rgba(166, 124, 57, 0.6)"
                   />
                   
-                  {/* Letter V */}
+                  {/* Male figure */}
+                  <circle cx="65" cy="23" r="8" fill="rgba(166, 124, 57, 0.6)" />
                   <path 
-                    d="M 55 30 L 65 60 L 75 30"
-                    stroke="rgba(166, 124, 57, 0.7)"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
+                    d="M 65 31 Q 60 35, 58 55 L 62 80 L 68 80 L 72 55 Q 70 35, 65 31"
+                    fill="rgba(166, 124, 57, 0.6)"
                   />
                   
-                  {/* Decorative flourish above XV */}
+                  {/* Heart between them */}
                   <path 
-                    d="M 35 22 Q 50 18, 65 22"
-                    stroke="rgba(166, 124, 57, 0.5)"
-                    strokeWidth="1.5"
-                    fill="none"
+                    d="M 50 45 C 48 42, 44 42, 44 45 C 44 42, 40 42, 38 45 Q 38 50, 44 55 Q 50 50, 50 45 Z"
+                    fill="rgba(166, 124, 57, 0.4)"
+                    transform="translate(6, -5)"
                   />
                   
-                  {/* Decorative flourish below XV */}
-                  <path 
-                    d="M 35 68 Q 50 72, 65 68"
-                    stroke="rgba(166, 124, 57, 0.5)"
-                    strokeWidth="1.5"
-                    fill="none"
+                  {/* Holding hands line */}
+                  <line 
+                    x1="42" y1="50" 
+                    x2="58" y2="50" 
+                    stroke="rgba(166, 124, 57, 0.5)" 
+                    strokeWidth="2"
                   />
                 </svg>
                 

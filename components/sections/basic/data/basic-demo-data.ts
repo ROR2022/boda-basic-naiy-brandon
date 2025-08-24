@@ -1,4 +1,22 @@
 // Datos demo para el paquete básico de boda
+
+/**
+ * Ceremonia
+Iglesia santa maria de la asunción acajete puebla 
+Hora de misa 11:00am.
+Fiesta o recepción en Atoyatempan puebla 
+Comida de 2:00pm a 5:00pm 
+Calle nacional  num 512 int.2
+
+Papas del novio 
+Bonifacio Bautista de la luz
+Edith Serrano Nolasco
+
+Papas de la novia 
+Leopoldo juarez Morales
+Claudia Hernandez Sanchez
+ */
+
 export const basicDemoData = {
   hero: {
     name: "Naiy & Brandon",
@@ -13,43 +31,44 @@ export const basicDemoData = {
     },
     parents: {
       brideParents: {
-        father: "Felipe Serrano García",
-        mother: "María Dolores Chávez Garfias"
+        father: "Leopoldo Juarez Morales",
+        mother: "Claudia Hernandez Sanchez"
       },
       groomParents: {
-        father: "Policarpo López Alonso",
-        mother: "Lucrecia Torres Salinas"
+        father: "Bonifacio Bautista de la Luz",
+        mother: "Edith Serrano Nolasco"
       }
     },
+    //Alberto Bautista y Cristina Ramirez
     padrinos: {
-      father: "Bonifacio Romero Linares",
-      mother: "Matilde Josefina López Alonso"
+      father: "Alberto Bautista",
+      mother: "Cristina Ramirez"
     },
     date: {
-      full: "Sábado 4 de Octubre 2025",
+      full: "Sábado 8 de Noviembre 2025",
       day: "Sábado",
-      date: "4 de Octubre 2025"
+      date: "8 de Noviembre 2025"
     },
     ceremony: {
-      time: "12:00 hrs.",
-      venue: "Parroquia de San Francisco De Asís",
-      address: "And. Vista Hermosa Manzana 019, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+      time: "11:00 hrs.",
+      venue: "Iglesia De Santa Maria De La Asuncion Acajete Puebla.",
+      address: "75110, Acajete, Pue.",
       type: "Misa de Matrimonio",
-      ubiLink: "https://maps.app.goo.gl/NXmbEKR9Y49VEG5Q7"
+      ubiLink: "https://maps.app.goo.gl/zqDTC6QkYkHydUUg7"
     },
     party: {
-      time: "15:30 hrs.",
-      venue: "Salon FABELA",
-      address: "Manzana 001, Isidro Fabela, 52004 Col. Isidro Fabela, Méx.",
+      time: "14:00 hrs.",
+      venue: "Atoyatempan, Pue.",
+      address: "Av. Nacional 512 int-2, Aldama, 75620 Atoyatempan, Pue.",
       type: "Recepción",
-      ubiLink: "https://maps.app.goo.gl/im4sayd1shRqhP3a7"
+      ubiLink: "https://maps.app.goo.gl/UhfXoMW8ZkYyYHfi7"
     },
     dressCode: "Formal",
     restrictions: "No Niños"
   },
 
   countdown: {
-    targetDate: "October 4, 2025 12:00:00",
+    targetDate: "November 8, 2025 11:00:00",
     backgroundImage: "/images/countdown-bg.jpg"
   },
 

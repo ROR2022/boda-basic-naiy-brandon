@@ -67,10 +67,16 @@ export function PremiumGallery() {
   }, [currentIndex, isModalOpen, goToNext, goToPrevious, closeModal, isClient])
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-blue-50 to-sky-50">
+    <section 
+    style={{
+        position: "relative",
+        background: "url('/images/boda3.png') center center",
+        backgroundSize: "cover",
+      }}
+    className="py-16 px-4 ">
       <div
         ref={ref}
-        className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${
+        className={`max-w-4xl mx-auto text-center bg-slate-300 bg-opacity-80 rounded-2xl p-4 transition-all duration-1000 ${
           isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}
       >

@@ -13,7 +13,7 @@ export default function TimelineSection() {
 
   // Configurar animación de scroll
   const animationConfig = getAnimationConfig('timeline')
-  const { ref: sectionRef, style: animationStyle } = useScrollAnimation(
+  const { ref: sectionRef } = useScrollAnimation(
     animationConfig.options,
     animationConfig.type,
     animationConfig.delay
@@ -23,12 +23,9 @@ export default function TimelineSection() {
     <section
       ref={sectionRef}
       style={{
-         /* backgroundImage: `url('/images/campo3.png')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',  */
-        position: 'relative',
-        ...animationStyle
+        position: "relative",
+        background: "url('/images/boda3.png') center center",
+        backgroundSize: "cover",
       }}
      id="timeline" className="py-20">
       {/* Overlay configurable */}
@@ -41,13 +38,13 @@ export default function TimelineSection() {
       style={{
         animation: 'bounce1 2s ease 0s 1 normal forwards'
       }}
-      className="container bg-slate-300 bg-opacity-60 mx-auto px-4 bg-transparent p-6 rounded-2xl">
+      className="container bg-slate-300 bg-opacity-80 mx-auto px-4 p-6 rounded-2xl">
 
         <div 
         style={{display:'none'}}
         className='flex justify-center mb-4'>
           <Image
-            src="/images/decoration1a1.png"
+            src="/images/naiy5.jpg"
             alt="Fecha"
             width={200}
             height={100}
@@ -67,7 +64,7 @@ export default function TimelineSection() {
                   
                 >
                   <Image
-                    src="/images/frida5.jpg"
+                    src="/images/naiy5.jpg"
                     alt="Celebración"
                     fill
                     className="object-cover"
