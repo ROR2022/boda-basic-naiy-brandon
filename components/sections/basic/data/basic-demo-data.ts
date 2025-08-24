@@ -19,15 +19,15 @@ Claudia Hernandez Sanchez
 
 export const basicDemoData = {
   hero: {
-    name: "Naiy & Brandon",
+    name: "Naiy & Brandoon",
     subtitle: "¡Nos Casamos!",
     backgroundImage: "/images/giselleFernando1.jpg"
   },
   
   event: {
     celebrants: {
-      bride: "Naiy Serrano Chávez",
-      groom: "Brandon López Torres"
+      bride: "Naiy Juarez Hernandez",
+      groom: "Brandoon Bautista Serrano"
     },
     parents: {
       brideParents: {
@@ -59,7 +59,7 @@ export const basicDemoData = {
     party: {
       time: "14:00 hrs.",
       venue: "Atoyatempan, Pue.",
-      address: "Av. Nacional 512 int-2, Aldama, 75620 Atoyatempan, Pue.",
+      address: "Calle nacional 512 int. 2\nAtoyatempan, Pue.",
       type: "Recepción",
       ubiLink: "https://maps.app.goo.gl/UhfXoMW8ZkYyYHfi7"
     },
@@ -96,13 +96,13 @@ export const basicDemoData = {
         icon: "💳",
         title: "Transferencia Bancaria",
         description: "BBVA Bancomer",
-        details: "Cuenta: 1234567890\nCLABE: 012345678901234567\nA nombre de: Ana Lucía Martínez Rodríguez"
+        details: "Banco: Spin by OXXO\nCLABE: 728969000009201951\nA nombre de: Brandoon Bautista"
       },
       {
         icon: "🎁",
-        title: "Mesa de Regalos",
-        description: "Liverpool",
-        details: "Evento: Boda Ana & Carlos\nCódigo: 51234567"
+        title: "Regalo Sorpresa",
+        description: "Su presencia es el mejor regalo",
+        details: "Se tendrá un lugar designado para los regalos sorpresas."
       },
       {
         icon: "💰",

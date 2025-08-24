@@ -18,8 +18,14 @@ export function BasicGiftOptions() {
   }
 
   return (
-    <section className="py-16 px-4 bg-white">
-      <div className="max-w-4xl mx-auto">
+    <section 
+    style={{
+        position: "relative",
+        background: "url('/images/boda3.png') center center",
+        backgroundSize: "cover",
+      }}
+    className="py-16 px-4 ">
+      <div className="max-w-4xl mx-auto bg-slate-200 bg-opacity-80 rounded-2xl p-4">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex justify-center mb-4">
@@ -83,7 +89,10 @@ export function BasicGiftOptions() {
                 <li>• Guardar comprobante</li>
               </ul>
             </div>
-            <div>
+
+            <div
+            style={{ display: "none" }}
+            >
               <h4 className="font-semibold text-gray-800 mb-2">Para Mesa de Regalos:</h4>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Código válido hasta el día del evento</li>
@@ -94,13 +103,7 @@ export function BasicGiftOptions() {
           </div>
         </div>
 
-        {/* Nota del demo */}
-        <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
-          <p className="text-sm text-blue-800 text-center">
-            <strong>💡 Demo:</strong> Esta información es de ejemplo. 
-            En tu invitación real, podrás personalizar completamente las opciones de regalo.
-          </p>
-        </div>
+        
       </div>
     </section>
   )

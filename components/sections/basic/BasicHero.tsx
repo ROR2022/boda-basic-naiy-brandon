@@ -25,6 +25,9 @@ export function BasicHero() {
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 tracking-wider animate-fade-in-delay">
           {basicDemoData.hero.subtitle}
         </h2>
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 tracking-wider animate-fade-in-delay">
+          Y Bautizo de nuestra Princesa
+        </h2>
         
         {/* Información adicional */}
         <div className="mt-8 space-y-2">

@@ -211,7 +211,7 @@ export function BasicEventDetails() {
 
             <div className="  mb-4 shadow-2xl mt-4">
               <h2 className="text-xl font-semibold text-purple-800 mb-2">
-                Meredith
+                Meredith Bautista Serrano
               </h2>
             </div>
           </div>

@@ -62,15 +62,15 @@ export const weddingData = {
     },
     {
       id: "comida",
-      name: "Comida",
-      time: "2:00",
+      name: "Recepción",
+      time: "2:00 - 6:00 pm",
       icon: "🍽️",
       color: "primary"
     },
     {
       id: "vals",
-      name: "Vals",
-      time: "5:30",
+      name: "Vals y Brindis",
+      time: "6:30",
       icon: "💃",
       color: "primary"
     },
@@ -80,13 +80,6 @@ export const weddingData = {
       time: "8:00",
       icon: "🍽️", // Plato con cubiertos - cena elegante
       color: "primary"
-    },
-    {
-      id: "brindis",
-      name: "Brindis",
-      time: "9:00",
-      icon: "🥂", // Copas de champagne - celebración y brindis
-      color: "secondary"
     },
   ],
 

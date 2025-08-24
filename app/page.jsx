@@ -9,6 +9,7 @@ import { PremiumGallery } from "@/components/sections/PremiumGallery"
 import InvitationEnvelope from "@/components/sections/InvitationEnvelope"
 import CustomInvitations from "@/components/sections/CustomInvitations/components/CustomInvitations"
 import TimelineSection from "@/components/sections/TimelineSection"
+import {BasicGiftOptions} from "@/components/sections/basic/BasicGiftOptions"
 
 export default function WeddingInvitation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -29,6 +30,7 @@ export default function WeddingInvitation() {
       <BasicEventDetails />
       <TimelineSection />
       <PremiumGallery />
+      <BasicGiftOptions />
       <BasicAttendance />
       <CustomInvitations />
       <BasicCTA />
