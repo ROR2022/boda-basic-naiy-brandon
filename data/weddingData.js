@@ -56,7 +56,7 @@ export const weddingData = {
     {
       id: "ceremonia",
       name: "Ceremonia",
-      time: "11:00",
+      time: "11:00 am",
       icon: "🧡", // 
       color: "primary"
     },
@@ -70,14 +70,14 @@ export const weddingData = {
     {
       id: "vals",
       name: "Vals y Brindis",
-      time: "6:30",
+      time: "5:30 pm",
       icon: "💃",
       color: "primary"
     },
     {
       id: "cena",
       name: "Cena",
-      time: "8:00",
+      time: "8:00 pm",
       icon: "🍽️", // Plato con cubiertos - cena elegante
       color: "primary"
     },
