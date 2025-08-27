@@ -154,6 +154,12 @@ export const premiumDemoData = {
         alt: "Sesión fotográfica 12",
         caption: "Momentos Inolvidables",
         category: "celebracion"
+      },
+      {
+        src: "/images/naiy13.jpg",
+        alt: "Sesión fotográfica 13",
+        caption: "Momentos Inolvidables",
+        category: "celebracion"
       }
     ]
   },
